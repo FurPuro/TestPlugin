@@ -6,7 +6,7 @@
 
     <groupId>ru.furpuro</groupId>
     <artifactId>TestPlugin</artifactId>
-    <version>0.4</version>
+    <version>0.5</version>
     <packaging>jar</packaging>
 
     <name>Test Plugin</name>

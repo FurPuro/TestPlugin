@@ -6,6 +6,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Creeper;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
+import org.bukkit.potion.PotionEffect;
+import org.bukkit.potion.PotionEffectType;
 
 public class spawnCreeper implements CommandExecutor {
     @Override
@@ -15,7 +17,7 @@ public class spawnCreeper implements CommandExecutor {
 
         creeper.setPowered(true);
         creeper.setExplosionRadius(10);
-        creeper.setFuseTicks(100);
+        creeper.addPotionEffect(new PotionEffect(PotionEffectType.SPEED,20000,50));
 
         return true;
     }

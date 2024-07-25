@@ -1,0 +1,6 @@
+ru\furpuro\testplugin\PluginListener.class
+ru\furpuro\testplugin\cmds\message.class
+ru\furpuro\testplugin\cmds\TabCompleter.class
+ru\furpuro\testplugin\cmds\calculator.class
+ru\furpuro\testplugin\Plugin.class
+ru\furpuro\testplugin\cmds\spawnCreeper.class
