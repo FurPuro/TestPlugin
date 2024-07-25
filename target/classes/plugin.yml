@@ -1,0 +1,14 @@
+name: TestPlugin
+version: '0.3'
+main: ru.furpuro.testplugin.Plugin
+api-version: '1.21'
+commands:
+  calculator:
+    description: Калькулятор, но в майнкрафте
+    aliases:
+      - calc
+    usage: /calculator <name1> <+|-|*|/> <name2>
+  message:
+    aliases:
+      - m
+    usage: /message <hello|goodbye|whatsup>
