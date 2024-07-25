@@ -12,3 +12,7 @@ commands:
     aliases:
       - m
     usage: /message <hello|goodbye|whatsup>
+  spawnCreeper:
+    aliases:
+      - sc
+    usage: /spawn-creeper
